@@ -1,0 +1,6 @@
+title: Handypick
+description: Small games by Handypick.
+exclude:
+  - README.md
+include:
+  - app-ads.txt
