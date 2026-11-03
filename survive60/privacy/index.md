@@ -5,7 +5,7 @@ title: Survive 60 Privacy Policy
 
 # Survive 60 Privacy Policy
 
-**Last updated:** October 29, 2026
+**Last updated:** November 3, 2026
 
 This policy explains what information the Android game **Survive 60** (the "game") uses, why, and the
 choices you have. The game is made by **Handypick** ("we", "us"), the developer named on the
@@ -17,13 +17,13 @@ Questions or requests: **support@handypick.dev**
 
 - Survive 60 is a single-player game. There is no chat and no friends list, and we do not create an account
   for you. You can **optionally sign in with Google Play Games** for achievements, leaderboards and cloud save.
-- **We do not run any servers** and we do not sell any personal information about you. Your progress is
+- **We do not run any servers** and we do not sell your personal information for money. Your progress is
   saved on your device, and, only if you sign in to Google Play Games, also in **your own Play Games account**.
 - The game uses **Google Analytics for Firebase** to see how the game is played (section 9). It never sends
   your name or anything you type. You can turn it off in the game's Settings.
-- The game shows **ads from Google AdMob**. Google's ad software collects some device data (described
-  below) to show ads, measure them and prevent fraud. In the European Economic Area, the UK and
-  Switzerland, the game asks for your consent first.
+- The game shows **ads from Unity Ads**. Unity's ad software collects and shares some device and usage data
+  (described below) to show ads, measure them and prevent fraud. In the European Economic Area, the UK and
+  Switzerland, ads are personalized only if you consent.
 - **Purchases are handled by Google Play.** We never see your payment details.
 
 ## 1. Information stored on your device
@@ -41,41 +41,50 @@ The game saves the following on your phone or tablet, in the game's private app 
 This information stays on your device. It is not sent to us. The only exceptions are the optional cloud save
 (section 10) and the anonymous play data described in section 9.
 
-## 2. Advertising (Google AdMob)
+## 2. Advertising (Unity Ads)
 
 The game shows **rewarded video ads** that you choose to watch in exchange for an in-game bonus. It never
 shows ads between games or during a game.
-Ads are provided by **Google AdMob**, a service of Google LLC (Google Ireland Limited for users in the
-EEA and Switzerland).
+Ads are provided by **Unity Ads**, a service of Unity Technologies.
 
-When ads are enabled, the Google Mobile Ads SDK inside the game **collects and shares with Google**:
+When ads are enabled, the Unity Ads software inside the game **collects and shares**:
 
-| Data | Examples | Used for |
+| Data | Details | Used for |
 | --- | --- | --- |
-| IP address | Your device's internet address, which may be used to estimate your general location (city or region, not precise location) | Advertising, analytics, fraud prevention |
-| Interactions with ads and the game | App launches, taps, ad views | Advertising, analytics, fraud prevention |
-| Diagnostic information | App launch time, freezes, energy use | Advertising, analytics, fraud prevention |
-| Device identifiers | Android Advertising ID, App Set ID | Advertising, analytics, fraud prevention |
+| Approximate location | General location, not precise location | Advertising, analytics, app functionality, fraud prevention and security |
+| Personal identifiers | Identifiers Unity's software uses to work | App functionality |
+| Purchase history | Information about purchases | Advertising, analytics |
+| Taps and views | Only during the ad itself, not during gameplay | Advertising, analytics, fraud prevention and security |
+| Diagnostic information | How the app and the ads perform | App functionality, analytics |
+| Device identifiers | Such as your Android Advertising ID | Advertising, analytics, app functionality, fraud prevention and security |
 
-This list follows Google's own published disclosure for the Google Mobile Ads SDK:
-<https://developers.google.com/admob/android/privacy/play-data-disclosure>.
-Data is encrypted in transit. We do not receive this data ourselves; Google processes it under its own
-privacy policy: <https://policies.google.com/privacy>. How Google uses data from apps that show its ads:
-<https://policies.google.com/technologies/partner-sites>.
+This list follows Unity's own published disclosure:
+<https://docs.unity.com/en-us/grow/ads/privacy/google-data-safety>. Data is encrypted in transit. We do not
+receive this data ourselves as personal data; Unity processes it under its own privacy policy:
+<https://unity.com/legal/game-player-and-app-user-privacy-policy>.
+
+Part of Unity's software starts when the game launches. The game does not ask it for an ad until the consent
+step below has finished.
 
 **Your choices about ads**
 
-- **Consent (EEA, UK, Switzerland).** Before any ad is loaded, the game shows Google's consent form. You
-  can accept or refuse personalized ads. If you refuse, Google may still show non-personalized or
-  limited ads, which use less data. You can change your choice at any time from
-  **Settings > Privacy options** in the game.
+- **Consent (EEA, UK, Switzerland).** The game shows a consent form from Google's User Messaging Platform when
+  one is required. Ads are personalized only if the form confirms that you allowed it for Unity. If you refuse,
+  or the game cannot confirm your choice, it asks Unity for non-personalized (contextual) ads, which use less
+  data. You can change your choice at any time from **Settings > Privacy options** in the game.
+- **In the ad.** Unity's ads may include a privacy icon where you can opt out of personalized ads or ask to see
+  data linked to your device.
 - **Advertising ID.** You can reset or delete your Android Advertising ID at any time in your device's
   settings (usually *Settings > Privacy > Ads* or *Settings > Google > Ads*). After deletion, apps
   cannot use it for ads.
-- **US state privacy laws.** You can contact us at the address above with any request. Because we hold
-  no ad data about you, we will point you to Google's tools where needed.
+- **US state privacy laws.** You can use Unity's page at
+  <https://unity.com/legal/do-not-sell-my-personal-information>, or contact us at the address above. Because we
+  hold no ad data about you, we will point you to Unity's tools where needed.
 - **Remove Ads.** The paid Remove Ads item gives you rewarded-ad bonuses at once, without a video. The
-  game still starts Google's ad software, because the same consent step is used for analytics.
+  game still starts the ad software, because the same consent step is used for analytics.
+
+Google's ad software (Google AdMob) is also included in the game but is not used to show ads at the moment. If
+that changes, we will update this page first.
 
 ## 3. In-app purchases (Google Play)
 
@@ -96,7 +105,7 @@ price (never payment details, section 9).
 
 - We do not collect your name, email, phone number, contacts, photos, files, precise location or
   microphone or camera data. The game does not ask for those permissions.
-- We do not sell personal information.
+- We do not sell your personal information for money. Our ad partner's data use is described in section 2.
 - We do not use crash reporting or advertising trackers of our own. We use Google Analytics for Firebase
   only as described in section 9.
 - The game has no chat, no friends list and no content made by other players. We do not create user accounts.
@@ -116,17 +125,17 @@ used the game and want advice on limiting ads or analytics data, contact us at t
 - **In your Play Games account (cloud save):** the cloud save stays in your account until you delete it.
   You can delete this game's data, or your whole Play Games profile, in the settings of the Google Play
   Games app or at <https://myaccount.google.com/data-and-privacy>.
-- **With Google:** data collected by Google's ad software is kept and deleted according to Google's
-  policies (<https://policies.google.com/technologies/retention>). You can reset or delete your
-  Advertising ID as described in section 2. Analytics data is kept for **14 months**, then deleted by
-  Google.
+- **With Unity:** data collected by Unity's ad software is kept and deleted according to Unity's policy
+  (<https://unity.com/legal/game-player-and-app-user-privacy-policy>), which also explains how to ask Unity
+  to delete it. You can reset or delete your Advertising ID as described in section 2.
+- **With Google:** analytics data is kept for **14 months**, then deleted by Google.
 - **With us:** we hold no data about you on servers of our own. We can see analytics only as totals and
   reports in Google's tools, linked to a random app instance ID, not to you. If you email us, we keep the
   email only as long as needed to answer it.
 
 ## 7. Security
 
-Your save files are encrypted and signed on your device. The Google Mobile Ads SDK, Google Analytics for
+Your save files are encrypted and signed on your device. The Unity Ads software, Google Analytics for
 Firebase, Google Play Games and Google Play Billing send their data using encrypted connections (TLS). No
 method is perfectly secure, but we do not store your information on servers of our own.
 
@@ -135,12 +144,13 @@ method is perfectly secure, but we do not store your information on servers of o
 Depending on where you live (for example under the GDPR in the EU, the UK GDPR, or US state privacy
 laws), you may have rights to access, correct, delete or object to the use of your personal data.
 Because we do not collect or hold personal data on servers of our own, most requests are best made
-directly to Google for ad, analytics and Play Games data (<https://myaccount.google.com/data-and-privacy>).
+directly to Unity for ad data (section 2) and to Google for analytics and Play Games data
+(<https://myaccount.google.com/data-and-privacy>).
 For analytics data, you can also switch analytics off in the game. You may still contact us at
 **support@handypick.dev** and we will help.
 
-Google may process ad, analytics and Play Games data on servers in other countries, including the United
-States, under its own safeguards.
+Unity and Google may process ad, analytics and Play Games data on servers in other countries, including the
+United States, under their own safeguards.
 
 ## 9. Analytics (Google Analytics for Firebase)
 
